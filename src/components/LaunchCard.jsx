@@ -1,4 +1,5 @@
 import s from '../styles/App.module.css'
+import { Link } from 'react-router-dom'
 
 export default function LaunchCard(launch) {
     
@@ -8,10 +9,13 @@ export default function LaunchCard(launch) {
             {`Mission: ${launch.name}`} 
             <br />
             {launch.date_local.split('-')[0]}
-            
-            <button> More Details</button>
+            <Link to={`/launch/${launch.id}`}>
+                <button> More Details</button>
+            </Link>
         </span>
+
         <button className={launch.success? s.success : s.failure}> {launch.success? "success" : "failure"}</button> 
+
       </li>
     )
 }

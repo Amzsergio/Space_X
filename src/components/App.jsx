@@ -1,29 +1,20 @@
-import logo from '../assets/logo2.png'
-import React, { useState, useEffect } from 'react'
-import * as API from '../Services/launches.js'
-import LaunchCard from './LaunchCard';
+import logo from '../assets/logo2.png';
+import React from 'react';
+import LaunchList from './LaunchList.jsx';
+import { Routes, Route } from 'react-router-dom'
+import LaunchDetails from './LaunchDetails';
+
 
 export default function App() {
 
-  const [launches, setLaunches] = useState([]);
-
-    useEffect(() => {
-      API.getAllLaunches().then(data => setLaunches(data));
-    }, []) 
-    console.log(launches)
 
   return (
     <React.Fragment>
       <img src={logo} alt="space X logo" />
-      <h1>Space X Missions</h1>
-      <ul>
-        {launches.map(launch => (
-          <LaunchCard 
-          key={launch.flight_number}
-          {...launch}
-          />
-        ))}
-      </ul>
+      <Routes>
+        <Route path='/' element={<LaunchList/>}/>
+        <Route path='/launch/:launchId' element={<LaunchDetails/>} />
+      </Routes>
     </React.Fragment>
   )
 }
