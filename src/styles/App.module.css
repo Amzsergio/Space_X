@@ -1,0 +1,47 @@
+#liBox {
+    background: linear-gradient(to right, black, #042940, #005C53);
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px 5px 5px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+    
+}
+
+#cardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#cardInfo button {
+    background-color:#D6D58E;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.success {
+    background: linear-gradient(to right, #DBF227, #9FC131);
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    color: #005C53;
+    font-weight: bold;
+}
+
+.failure {
+    background-color: #D6D58E;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    color: #042940;
+    font-weight: bold;
+}
