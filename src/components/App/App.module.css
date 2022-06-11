@@ -1,0 +1,56 @@
+.logoTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem 15rem;
+    cursor: pointer;
+    border: 0.5rem solid white;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem 1rem;
+    transition: var(--transition);
+    height: 70vh;
+
+}
+
+.activeDescription {
+    background: var(--color-light);
+    font-size: 1.7rem;
+    color: var(--color-bg);
+    font-weight: 100;
+    padding: 3.5rem;
+    border: 0.5rem solid var(--color-bg-variant);
+    line-height: 2.2rem;
+}
+
+.logoTitle button {
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background: var(--color-light);
+    font-weight: bold;
+    color: var(--color-bg);
+    transition: var(--transition);
+}
+
+.logoTitle:hover button{ 
+    background: var(--color-bg-variant);
+    color: white;
+    border: 1px solid white;
+} 
+
+.logoTitle:hover { 
+    border: 0.5rem solid var(--color-light);
+}
+
+.logoTitle h1{ 
+    transition: var(--transition);
+}
+
+.logoTitle:hover h1{ 
+    color: var(--color-light)
+}
+
+

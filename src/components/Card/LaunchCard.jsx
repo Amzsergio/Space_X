@@ -1,4 +1,4 @@
-import s from '../styles/Card.module.css'
+import s from '../Card/Card.module.css'
 import { Link } from 'react-router-dom'
 
 export default function LaunchCard(launch) {

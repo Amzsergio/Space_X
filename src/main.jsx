@@ -1,14 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router} from 'react-router-dom'
-import App from '../src/components/App'
+import App from '../src/components/App/App.jsx'
+import "../src/main.css"
 
-ReactDOM.render(
-  <React.StrictMode>
+const root= ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.Fragment>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>, 
-  
-  document.getElementById('root')
+</React.Fragment>, 
 )

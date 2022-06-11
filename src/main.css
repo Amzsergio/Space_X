@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../src/assets/img_bg.png);
+}
+
+:root {
+    --color-bg: #111735;
+    --color-bg-variant: #b5066d;
+    --color-primary: #045354;
+    --color-primary-variant:#651256;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --transition: all 700ms ease;
+
+}
