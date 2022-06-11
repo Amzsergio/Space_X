@@ -1,13 +1,13 @@
 #liBox {
     background: linear-gradient(to right, black, #042940, #005C53);
-    margin-bottom: 20px;
+    margin: 2rem 1rem;
     color: white;
-    padding: 5px 5px 5px 50px;
-    border-radius: 10px;
+    padding: 1.3rem;
+    border-radius: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content:space-between
-    
+    justify-content:space-between;
+    width: 400px;
 }
 
 #cardInfo {

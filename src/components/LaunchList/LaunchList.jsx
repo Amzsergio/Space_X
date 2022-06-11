@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import * as API from '../Services/launches.js'
-import LaunchCard from './Card/LaunchCard.jsx';
-import s from "../../src/components/App/App.module.css"
+import * as API from '../../Services/launches.js'
+import LaunchCard from '../Card/LaunchCard.jsx';
+import s from "../LaunchList/LaunchList.module.css"
 
 
 export default function LaunchList(){
@@ -46,14 +46,14 @@ export default function LaunchList(){
                 )
             }
             
-            <ul>
+            <div id={s.cardsList}>
                 {launches.map(launch => (
                 <LaunchCard 
                 key={launch.id}
                 {...launch}
                 />
                 ))}
-            </ul>  
+            </div>  
         
         </>
     )
