@@ -27,9 +27,9 @@ export default function LaunchList(){
                     >
                       
                             <p>
-                                I'm passionate about space and the universe, that's why I have Built this Single Web Page App (SPA) and if you share this passion in the same way, I hope you to enjoy it as well. 
+                                I'm passionate about space and the universe, that's why I have Built this Single Web Page App (SPA) and whether you share this passion in the same way or you have a huge and saint curiosity, I hope you to enjoy it. 
                                 <br />
-                                I've used <a href="https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs" target='_blank'> this amazing Api </a> to set all the information related with the space X missions into a serie of "Missions cards". You'll be able to delve into high quality information about Space x Missions through relevant links, videos, pictures and more. 
+                                I've used <a href="https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs" target='_blank'> this amazing Api </a> to set all the information related with the space X missions into a serie of "Mission cards". You'll be able to delve into high quality information about Space x Missions through relevant links, videos, pictures and more. 
                                 <br />
                                 <b>Comming soon:</b> A section where you'll be able to save your favorite missions. 
                             </p>
