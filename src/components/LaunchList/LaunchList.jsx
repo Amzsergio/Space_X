@@ -38,7 +38,7 @@ export default function LaunchList(){
                     
                 ): (
                     <div className={s.logoTitle}>
-                        <h1> Space X Missions </h1>
+                        <h1> Space X <br /> Missions </h1>
                         <button
                             onClick={() => handleOnClick()}
                         >About This App</button>

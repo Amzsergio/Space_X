@@ -1,27 +1,37 @@
 .logoTitle {
     color: white;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: center;
     margin: 1rem 15rem;
     cursor: pointer;
     border: 0.5rem solid white;
-    border-radius: 5rem;
+    border-radius: 4rem;
     padding: 0.5rem 1rem 1rem;
     transition: var(--transition);
-    height: 70vh;
+    height: 28vw;
 
 }
 
 .activeDescription {
     background: var(--color-light);
+    border: 0.5rem solid var(--color-bg-variant);
+    overflow: hidden;
+    display: inline-block;
+    padding: 3rem 0.2rem;
+}
+
+.activeDescription p {
     font-size: 1.7rem;
     color: var(--color-bg);
     font-weight: 100;
-    padding: 3.5rem;
-    border: 0.5rem solid var(--color-bg-variant);
+    padding: 2rem;
     line-height: 2.2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 20vw;
 }
+
 
 .logoTitle button {
     width: 120px;
@@ -59,4 +69,34 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+/* == === CONTAINER MEDIUM DEVICES MEDIA QUERIES === ==*/
+
+@media screen and (max-width: 1024px) {
+    .logoTitle {
+        background-color: red;
+        font-size: 3vw;
+        margin: 5vw 20vw;
+        height: 30rem;
+    }
+    .logoTitle h1 {
+        margin: 8vw;
+        
+    }
+}
+
+/* == === CONTAINER SMALL DEVICES MEDIA QUERIES === ==*/
+
+@media screen and (max-width: 600px) {
+    .logoTitle {
+        background-color: blue;
+        font-size: 5vw;
+        height: 60vw;
+        /* padding: 2rem; */
+        margin: 2rem; 
+    }
+    .logoTitle h1 {
+        margin-bottom: 8%;
+    }
 }
