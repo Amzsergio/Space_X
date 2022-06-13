@@ -14,7 +14,7 @@ export default function LaunchCard(launch) {
             </Link>
         </span>
 
-        <button className={launch.success? s.success : s.failure}> {launch.success? "success" : "failure"}</button> 
+        <button className={launch.success? s.success : s.failure}> {launch.success? "Success" : "Failure"}</button> 
 
       </li>
     )
