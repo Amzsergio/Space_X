@@ -5,7 +5,7 @@
     text-align: center;
     margin: 1rem 15rem;
     cursor: pointer;
-    border: 0.5rem solid white;
+    border: 0.3rem solid white;
     border-radius: 4rem;
     padding: 0.5rem 1rem 1rem;
     transition: var(--transition);
@@ -34,35 +34,29 @@
 
 
 .logoTitle button {
-    width: 120px;
+    width: 170px;
     cursor: pointer;
     border: none;
-    padding: 0.3rem;
+    padding: 1rem;
     border-radius: 1rem;
-    background: var(--color-light);
+    background: var(--color-white);
     font-weight: bold;
+    font-size: 17px;
     color: var(--color-bg);
     transition: var(--transition);
 }
 
 .logoTitle:hover button{ 
-    background: var(--color-bg-variant);
-    color: white;
-    border: 1px solid white;
+    background: var(--color-light);
 } 
 
 .logoTitle:hover { 
-    border: 0.5rem solid var(--color-light);
+    border: 0.3rem solid var(--color-bg-variant);
 }
 
 .logoTitle h1{ 
     transition: var(--transition);
 }
-
-.logoTitle:hover h1{ 
-    color: var(--color-light)
-}
-
 
 #cardsList{
     display: flex;

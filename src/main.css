@@ -6,14 +6,17 @@
 }
 
 body{
-    background-image: url(../src/assets/img_bg.png);
+    background-image: url(../src/assets/Daybreak.jpg);
+    background-repeat: repeat;
+    height: 100vh; 
+    background-size: cover;
 }
 
 :root {
-    --color-bg: #111735;
-    --color-bg-variant: #b5066d;
-    --color-primary: #045354;
-    --color-primary-variant:#651256;
+    --color-bg: #261514;
+    --color-bg-variant: #F27979;
+    --color-primary: hsla(0, 82%, 71%, 0.4);
+    --color-primary-variant:#A64141;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 700ms ease;

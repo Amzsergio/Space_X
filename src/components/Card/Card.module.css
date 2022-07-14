@@ -1,9 +1,9 @@
 #liBox {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(4, 41, 64, 0.6), rgba(0, 92, 83, 0.6));
+    background: transparent;
     margin: 2rem 1rem;
     color: var(--color-white);
     padding: 1.3rem;
-    border: 1px solid var(--color-bg);
+    border: 3px solid var(--color-white);
     border-radius: 2rem;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
 }
 
 #liBox:hover {
-    background: transparent;
+    background: var(--color-primary);
     border: 1px solid var(--color-white);
     color: white;
 
@@ -53,17 +53,17 @@
 }
 
 .success {
-    border: 2px solid var(--color-bg);
+    border: 2px solid var(--color-light);
     background: var(--color-white);
     height: 30px;
     width: 90px;
     border-radius: 10px;
-    color: var(--color-primary);
+    color: var(--color-bg);
     font-weight: bold;
 }
 
 .failure {
-    background: linear-gradient(to right, var(--color-primary-variant), var(--color-bg-variant));
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary-variant));
     border: 2px solid var(--color-white);
     height: 30px;
     width: 90px;
