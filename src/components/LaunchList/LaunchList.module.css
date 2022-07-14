@@ -51,7 +51,7 @@
 } 
 
 .logoTitle:hover { 
-    border: 0.3rem solid var(--color-bg-variant);
+    border: 0.3it srem solid var(--color-bg-variant);
 }
 
 .logoTitle h1{ 
