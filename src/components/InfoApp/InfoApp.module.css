@@ -1,0 +1,104 @@
+.logoTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+    margin: 1rem 15rem;
+    cursor: pointer;
+    border: 0.3rem solid white;
+    border-radius: 4rem;
+    padding: 0.5rem 1rem 1rem;
+    transition: var(--transition);
+    height: 29vw;
+
+}
+
+.activeDescription {
+    background: var(--color-light);
+    border: 0.5rem solid var(--color-bg-variant);
+    overflow: hidden;
+    display: inline-block;
+    padding: 3rem 0.2rem;
+}
+
+.activeDescription p {
+    font-size: 1.5rem;
+    color: var(--color-bg);
+    font-weight: 100;
+    padding: 2rem;
+    line-height: 2.2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 20vw;
+}
+
+
+.logoTitle button {
+    width: 170px;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: var(--color-white);
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--color-bg);
+    transition: var(--transition);
+}
+
+.logoTitle:hover button{ 
+    background: var(--color-light);
+} 
+
+.logoTitle:hover { 
+    border: 0.3rem solid var(--color-bg-variant);
+}
+
+.logoTitle h1{ 
+    transition: var(--transition);
+}
+
+
+/* == === CONTAINER MEDIUM DEVICES MEDIA QUERIES === ==*/
+
+@media screen and (max-width: 1024px) {
+    .logoTitle {
+        font-size: 3vw;
+        margin: 5vw 20vw;
+        height: 25rem;
+    }
+
+    .logoTitle h1 {
+        margin: 8vw;
+        
+    }
+
+    .activeDescription {
+        padding: 3rem 0.2rem;
+        height: 70vh;
+    }
+    
+    .activeDescription p {
+        font-size: 1.2rem;
+        color: var(--color-bg);
+        font-weight: 100;
+        padding: 2rem;
+        line-height: 2.2rem;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 50vh;
+    }
+}
+
+/* == === CONTAINER SMALL DEVICES MEDIA QUERIES === ==*/
+
+@media screen and (max-width: 600px) {
+    .logoTitle {
+        font-size: 5vw;
+        height: 60vw;
+        margin: 2rem; 
+    }
+    .logoTitle h1 {
+        margin-bottom: 8%;
+    }
+}

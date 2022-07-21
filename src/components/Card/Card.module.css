@@ -41,15 +41,14 @@
 
 #liBox:hover #cardInfo button {
     border: 2px solid var(--color-light);
-    background: var(--color-light);
-    color: var(--color-bg);
+    color: var(--color-white);
     height: 28px;
     width: 120px;
 }
 
 #liBox:hover #cardInfo button:hover  {
-    background-color: transparent;
-    color: var(--color-white);
+    background: var(--color-light);
+    color: var(--color-bg);
 }
 
 .success {

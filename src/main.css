@@ -20,5 +20,6 @@ body{
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 700ms ease;
+    --slowTransition: all 900ms ease;
 
 }
